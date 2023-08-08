@@ -15,13 +15,14 @@ f. Написать метод, который позволяет пересып
 g. Не забываем про метод добавления фрукта в коробку.
 */
 
-import DZ_4.Class.Appal;
+
+import DZ_4.Class.Apple;
 import DZ_4.Class.Box;
 import DZ_4.Class.Orange;
 
 public class App {
     public static void main(String[] args) {
-        Box<Appal> apple = new Box<>();
+        Box<Apple> apple = new Box<>();
         Box<Orange> orenge = new Box<>();
-        
+    }  
 }
