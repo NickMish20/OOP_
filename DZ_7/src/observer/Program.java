@@ -3,6 +3,9 @@ package observer;
 
 public class Program {
 
+    /**
+     * @param args
+     */
     @param args
     public static void main(String[] args) {
         Publisher jobAgency = new JobAgency();

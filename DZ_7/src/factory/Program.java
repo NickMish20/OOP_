@@ -12,8 +12,8 @@ public class Program {
         String[] names = new String[] { "Анатолий", "Глеб", "Клим", "Мартин", "Лазарь", "Владлен", "Клим", "Панкратий", "Рубен", "Герман" };
         String[] surnames = new String[] { "Григорьев", "Фокин", "Шестаков", "Хохлов", "Шубин", "Бирюков", "Копылов", "Горбунов", "Лыткин", "Соколов" };
         int typeIndex = random.nextInt(2);
-        int salary = random.nextInt(200, 500);
-        int index = random.nextInt(100, 150);
+        int salary = random.nextInt(200);
+        int index = random.nextInt(100);
         switch (employeeType)
         {
             case Freelancer:

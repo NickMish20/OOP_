@@ -1,3 +1,5 @@
+package observer;
+
 public class JobVacancy {
     private String title;
     private JobVacancyType type;
